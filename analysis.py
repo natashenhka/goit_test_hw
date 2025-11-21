@@ -1,5 +1,5 @@
 import pandas as pd
-data = {"city": ["Kyiv", "Lviv", "Odesa"], "sales": [800, 1200, 500]}
+data = {"city": ["Kyiv", "Lviv", "Odesa"], "sales": [700, 1200, 500]}
 df = pd.DataFrame(data)
 print("Продажі по містах:")
 print(df)
